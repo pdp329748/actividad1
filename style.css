@@ -1,0 +1,22 @@
+table {
+	border-spacing: 5px;
+}
+th, td {
+	background-color: limegreen;
+	padding: 10px;
+}
+td {
+	text-align: center;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th:nth-child(4), th:nth-child(5),
+td:nth-child(4), td:nth-child(5) {
+	background-color: crimson;
+}
+th:nth-child(7), th:nth-child(8),
+td:nth-child(7), td:nth-child(8) {
+	background-color: gray;
+}
