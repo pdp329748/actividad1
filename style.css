@@ -14,6 +14,20 @@ body {
 		background-position: 0% 50%;
 	}
 }
+.grid-container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 50px;
+}
+.symbol {
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 300px;
+}
+.image {
+	height: 200px;
+}
 table {
 	border-spacing: 5px;
 }
